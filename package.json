@@ -1,6 +1,6 @@
 {
   "name": "big-associative",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Big associative containers who can store over 16M elements",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",

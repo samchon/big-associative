@@ -35,6 +35,17 @@ export class BigMap<Key, T>
     /* -----------------------------------------------------------
         CONSTRUCTORS
     ----------------------------------------------------------- */
+    public get(key: Key): T | undefined
+    {
+        for (const container of this.data_)
+        {
+            const elem: T | undefined = container.get(key);
+            if (elem !== undefined)
+                return elem;
+        }
+        return undefined;
+    }
+
     public set(key: Key, value: T): this
     {
         return this._Insert(key, child => child.set(key, value));
