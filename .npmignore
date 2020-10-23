@@ -1,0 +1,14 @@
+# PROJECT FILES
+.git/
+.github/
+.vscode/
+src/
+
+# CONFIGURATIONS
+package-lock.json
+tsconfig.json
+*.*ignore
+
+# SPECIAL FILES
+lilb/test/
+*.js.map

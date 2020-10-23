@@ -1,0 +1,35 @@
+{
+  "name": "big-associative",
+  "version": "0.0.0",
+  "description": "Big associative containers who can store over 16M elements",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "build": "rm -rf lib && tsc",
+    "dev": "rm -rf lib && tsc --watch",
+    "test": "node lib/test",
+    "test:ts": "ts-node src/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samchon/big-associative"
+  },
+  "keywords": [
+    "bigmap",
+    "bigset",
+    "bigweakmap",
+    "bigweakset"
+  ],
+  "author": "Jeongho Nam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samchon/big-associative/issues"
+  },
+  "homepage": "https://github.com/samchon/big-associative",
+  "devDependencies": {
+    "@types/node": "^14.14.2",
+    "source-map-support": "^0.5.19",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
